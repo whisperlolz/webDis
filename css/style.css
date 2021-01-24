@@ -459,11 +459,13 @@ textarea {
 /* footer */
 footer {
   width: 100%;
-  height: 280px;
+  height: 40vh;
   background-color: #000;
   color: #fff;
 }
-
+footer p{
+  font-size: 1em;
+}
 footer .footer-content {
   padding-top: 100px;
   width: 100%;
