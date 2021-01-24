@@ -18,6 +18,12 @@
 }
 
 @media (min-width: 1199.98px) {
+  .menu .menu-list{
+    display: block;
+  }
+  .menu .hamburger{
+    display: none;
+  }
   button {
     font-size: 0.9em;
   }
