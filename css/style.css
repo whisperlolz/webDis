@@ -78,7 +78,7 @@ nav.menu {
   height: 10vh;
   font-size: 0.75em;
   font-weight: 600;
-  padding-top: 40px;
+  padding-top: 30px;
   position: sticky;
   position: -webkit-sticky;
   top: 0;
@@ -91,6 +91,7 @@ nav.menu {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 10px;
 }
 .menu .menu-logo {
   width: 31px;
@@ -630,7 +631,8 @@ footer .footer-content {
   display: block;
   width: 35px;
   height: 4px;
-  background-color: #000;
+  top: 15px;
+  background-color: rgb(255, 255, 255);
   border-radius: 10px;
 }
 .hamburger span::before {
@@ -641,7 +643,7 @@ footer .footer-content {
   display: block;
   width: 35px;
   height: 4px;
-  background-color: #000;
+  background-color: rgb(255, 255, 255);
   border-radius: 10px;
   transition: transform 0.2s ease-in, top 0.2s linear 0.2s;
 }
@@ -653,7 +655,7 @@ footer .footer-content {
   display: block;
   width: 35px;
   height: 4px;
-  background-color: #000;
+  background-color: rgb(255, 255, 255);
   border-radius: 10px;
   transition: transform 0.2s ease-in, top 0.2s linear 0.2s;
 }
@@ -662,6 +664,7 @@ footer .footer-content {
   background-color: transparent !important;
   z-index: 999;
   transition: 0.5s;
+  
 }
 
 .hamburger_active::before {
@@ -669,19 +672,15 @@ footer .footer-content {
   top: 3px !important;
   transform: rotate(45deg);
   transition: top 0.2s linear, transform 0.2s ease-in 0.2s !important;
-  background-color: #000;
+  background-color: rgb(255, 255, 255);
 }
 
 .hamburger_active::after {
   z-index: 999;
   top: 3px !important;
-  transform: rotate(-45deg) ;
+  transform: rotate(-45deg);
   transition: top 0.2s linear, transform 0.2s ease-in 0.2s !important;
-  background-color: #000;
-} 
-
+  background-color: rgb(255, 255, 255);
+}
 
 /* ----- */
-
-
-

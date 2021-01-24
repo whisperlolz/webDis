@@ -8,6 +8,7 @@ window.addEventListener("DOMContentLoaded", function () {
     if (nav.offsetTop > 100) {
       nav.style.backgroundColor = "#000";
       nav.style.color = "#fff";
+      
     } else {
       nav.style.backgroundColor = "transparent";
       nav.style.color = "#000";
@@ -138,17 +139,12 @@ window.addEventListener("DOMContentLoaded", function () {
   postForm(form);
   postForm(contactForm);
 
+  // HAMBURGER
 
-
-// HAMBURGER
-  
-  
   let hamburger = document.querySelector(".hamburger"),
-    spanHamb = hamburger.querySelector('span');
-  
+    spanHamb = hamburger.querySelector("span");
+
   hamburger.onclick = function () {
     spanHamb.classList.toggle("hamburger_active");
-  }
-
-
+  };
 });

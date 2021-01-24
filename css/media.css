@@ -5,13 +5,13 @@
 }
 
 @media (min-width: 991.98px) {
-  p{
+  p {
     line-height: 35px;
   }
-   .overlay .popup-form__input{
-   width: 100%;
- }
-  .popup-form__btn{
+  .overlay .popup-form__input {
+    width: 100%;
+  }
+  .popup-form__btn {
     width: 100%;
     margin-top: 20px;
   }
@@ -73,7 +73,9 @@
   button {
     font-size: 1em;
   }
-  .popup-form__btn{ width: 12vw; }
+  .popup-form__btn {
+    width: 12vw;
+  }
   nav .menu {
     font-size: 1em;
   }
@@ -100,10 +102,9 @@
   .achievements-item-text .achievements-text-num {
     font-size: 1.3em;
   }
-  .overlay .popup-form__input{
-   width: 65%;
- }
-
+  .overlay .popup-form__input {
+    width: 65%;
+  }
 }
 
 @media (min-width: 1599.98px) {
@@ -113,13 +114,12 @@
   .skills {
     height: 60vh;
   }
-
 }
 
 @media (min-width: 1799.98px) {
   button {
     font-size: 1.2em;
-    margin-top: 40px; 
+    margin-top: 40px;
     height: 55px;
   }
   nav .menu {
@@ -153,7 +153,6 @@
   .review-name {
     font-size: 1.2em;
   }
-
 }
 @media (min-width: 2047.98px) {
   .menu-list {
