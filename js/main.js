@@ -137,4 +137,18 @@ window.addEventListener("DOMContentLoaded", function () {
 
   postForm(form);
   postForm(contactForm);
+
+
+
+// HAMBURGER
+  
+  
+  let hamburger = document.querySelector(".hamburger"),
+    spanHamb = hamburger.querySelector('span');
+  
+  hamburger.onclick = function () {
+    spanHamb.classList.toggle("hamburger_active");
+  }
+
+
 });

@@ -21,7 +21,7 @@
   button {
     font-size: 0.9em;
   }
-  nav {
+  nav .menu {
     font-size: 0.9em;
   }
   .main .main-title {
@@ -74,7 +74,7 @@
     font-size: 1em;
   }
   .popup-form__btn{ width: 12vw; }
-  nav {
+  nav .menu {
     font-size: 1em;
   }
   .main .main-title {
@@ -122,7 +122,7 @@
     margin-top: 40px; 
     height: 55px;
   }
-  nav {
+  nav .menu {
     font-size: 1.2em;
   }
 
@@ -153,11 +153,7 @@
   .review-name {
     font-size: 1.2em;
   }
-  footer{
-    
-  }
 
-  
 }
 @media (min-width: 2047.98px) {
   .menu-list {

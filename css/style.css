@@ -66,8 +66,14 @@ button:hover {
 button:active {
   padding-top: 3px;
 }
-
-nav {
+nav.hamburger {
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  background-color: red;
+  z-index: 999;
+}
+nav.menu {
   width: 100%;
   height: 10vh;
   font-size: 0.75em;
@@ -95,6 +101,7 @@ nav {
   width: 100%;
   height: auto;
 }
+
 .menu .menu-list ul {
   display: flex;
   justify-content: space-between;
@@ -463,7 +470,7 @@ footer {
   background-color: #000;
   color: #fff;
 }
-footer p{
+footer p {
   font-size: 1em;
 }
 footer .footer-content {
@@ -605,3 +612,76 @@ footer .footer-content {
 .overlay .popup-form__input:focus:-ms-input-placeholder {
   color: transparent;
 }
+
+/* HAMBURGER */
+.menu .menu-list {
+  display: none;
+}
+
+.menu .hamburger {
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin-right: 10px;
+}
+.hamburger span {
+  position: relative;
+  display: block;
+  width: 35px;
+  height: 4px;
+  background-color: #000;
+  border-radius: 10px;
+}
+.hamburger span::before {
+  position: absolute;
+  left: 0;
+  top: -6px;
+  content: "";
+  display: block;
+  width: 35px;
+  height: 4px;
+  background-color: #000;
+  border-radius: 10px;
+  transition: transform 0.2s ease-in, top 0.2s linear 0.2s;
+}
+.hamburger span::after {
+  position: absolute;
+  left: 0;
+  top: 6px;
+  content: "";
+  display: block;
+  width: 35px;
+  height: 4px;
+  background-color: #000;
+  border-radius: 10px;
+  transition: transform 0.2s ease-in, top 0.2s linear 0.2s;
+}
+
+.hamburger_active {
+  background-color: transparent !important;
+  z-index: 999;
+  transition: 0.5s;
+}
+
+.hamburger_active::before {
+  z-index: 999;
+  top: 3px !important;
+  transform: rotate(45deg);
+  transition: top 0.2s linear, transform 0.2s ease-in 0.2s !important;
+  background-color: #000;
+}
+
+.hamburger_active::after {
+  z-index: 999;
+  top: 3px !important;
+  transform: rotate(-45deg) ;
+  transition: top 0.2s linear, transform 0.2s ease-in 0.2s !important;
+  background-color: #000;
+} 
+
+
+/* ----- */
+
+
+
