@@ -31,7 +31,25 @@
   .process-video iframe {
     max-width: 100%;
   }
-
+  .process .process-text {
+    padding-top: 50px;
+  }
+  .review{
+    height: auto;
+    padding: 5%;
+  }
+  .review .review-all-box {
+    padding-top: 0;
+  }
+  .review-content .slider-dots{
+    margin-top: 30px;
+  }
+ .achievements .achievements-content{
+   padding: 5% 0;
+ }
+  .review-name{
+    padding-top: 10px;
+  }
   button {
     width: 30vw;
   }
@@ -115,6 +133,10 @@
   .skills .skills-etap-progress {
     font-size: 1em;
   }
+   .company .company-item:hover {
+  transform: scale(1.3);
+  transition: 0.5s;
+}
   .skills .skills-etap-progress {
     font-size: 1em;
   }

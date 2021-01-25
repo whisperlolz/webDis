@@ -396,10 +396,7 @@ header .main {
   transition: 0.5s;
 }
 
-.company .company-item:hover {
-  transform: scale(1.3);
-  transition: 0.5s;
-}
+
 .company .company-item img {
   width: 100%;
 }
