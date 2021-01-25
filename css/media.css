@@ -1,4 +1,7 @@
 @media (min-width: 575.98px) {
+  p {
+    font-size: 0.8em;
+  }
   .about {
     height: auto;
   }
@@ -7,7 +10,7 @@
     padding-top: 4vh;
   }
   header .main {
-    padding-top: 20%;
+    padding-top: 25vh;
   }
   header {
     margin-top: -15vh;
@@ -15,9 +18,9 @@
   .main .main-title {
     font-size: 0.7em;
   }
-.achievements .achievements-content{
-  justify-content: space-around;
-}
+  .achievements .achievements-content {
+    justify-content: space-around;
+  }
   .more-work {
     color: #fff;
     background-color: #10c9c3;
@@ -28,7 +31,7 @@
   .process-video iframe {
     max-width: 100%;
   }
- 
+
   button {
     width: 30vw;
   }
@@ -39,7 +42,7 @@
     height: 45vh;
     filter: brightness(100%);
   }
-  .achievements .achievements-content{
+  .achievements .achievements-content {
     row-gap: 25px;
   }
 }
