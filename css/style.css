@@ -316,7 +316,9 @@ header .main {
   max-width: 600px;
   margin: 0 auto;
 }
-
+.process-video iframe{
+  max-width: 100%;
+}
 .process .process-video {
   padding: 30px 0;
 }

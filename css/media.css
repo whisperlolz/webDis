@@ -15,7 +15,9 @@
 .more-work:hover {
     background-image: none;
   }
-
+.process-video iframe{
+  max-width: 100%;
+}
 .work .work-box {
 filter: brightness(100%);
 }
