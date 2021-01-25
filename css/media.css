@@ -1,50 +1,66 @@
 @media (min-width: 575.98px) {
-   .about {
+  .about {
     height: auto;
   }
-   nav .menu {
-    background-color: #000;
+  nav.menu {
+    height: 15vh;
+    padding-top: 4vh;
   }
   header .main {
-    padding-top: 45vh;
+    padding-top: 20%;
   }
-   .more-work {
+  header {
+    margin-top: -15vh;
+  }
+  .main .main-title {
+    font-size: 0.7em;
+  }
+.achievements .achievements-content{
+  justify-content: space-around;
+}
+  .more-work {
     color: #fff;
     background-color: #10c9c3;
   }
-.more-work:hover {
+  .more-work:hover {
     background-image: none;
   }
-.process-video iframe{
-  max-width: 100%;
-}
-.work .work-box {
-filter: brightness(100%);
-}
-
-button{
+  .process-video iframe {
+    max-width: 100%;
+  }
+ 
+  button {
     width: 30vw;
   }
   .work {
-    height: 50vh;
+    height: 100vh;
   }
   .work .work-box {
-    height: 20vh;
+    height: 45vh;
+    filter: brightness(100%);
+  }
+  .achievements .achievements-content{
+    row-gap: 25px;
   }
 }
 
 @media (min-width: 767.98px) {
- 
-
+  header {
+    margin-top: -15vh;
+  }
+  .main .main-title {
+    font-size: 0.7em;
+  }
+  nav.menu {
+    height: 15vh;
+  }
 }
 
 @media (min-width: 991.98px) {
- 
   .work {
     height: 70vh;
   }
- 
-  
+
   .achievements .achievements-content {
     gap: 20px;
     justify-content: center;
@@ -70,10 +86,6 @@ button{
     width: 100%;
     margin-top: 20px;
   }
- 
-
-
-
 }
 
 @media (min-width: 1199.98px) {
@@ -123,12 +135,12 @@ button{
     display: block;
   }
   .skills .skills-progress {
-  padding-top: 8%;
-  width: 50%;
-}
-.skills{
-  height: 50vh;
-}
+    padding-top: 8%;
+    width: 50%;
+  }
+  .skills {
+    height: 50vh;
+  }
   footer {
     display: block;
   }
