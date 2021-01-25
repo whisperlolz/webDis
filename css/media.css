@@ -1,3 +1,130 @@
+
+@media(min-width:310px) {
+    
+p {
+    font-size: 0.8em;
+  }
+  .about {
+    height: auto;
+  }
+  nav.menu {
+    height: 15vh;
+    padding-top: 4vh;
+  }
+  header .main {
+    padding-top: 25vh;
+    width: 100%;
+  }
+  header {
+    margin-top: -15vh;
+    background-image: none;
+    text-align: center;
+
+  }
+  .main .main-title {
+    font-size: 0.5em;
+  }
+
+  .about {
+    padding: 5%;
+  }
+  .about-content {
+    padding: 0;
+  }
+  .more-work {
+    color: #fff;
+    background-color: #10c9c3;
+  }
+  .more-work:hover {
+    background-image: none;
+  }
+  .process-video iframe {
+    max-width: 100%;
+  }
+  .process .process-text {
+    padding-top: 50px;
+  }
+  .review {
+    height: auto;
+    padding: 5%;
+  }
+  .review-name{
+    font-size: 0.5em;
+  }
+  .review .review-all-box {
+    padding-top: 0;
+  }
+  .review-item .review-text{
+    font-size: 1em;
+    height: 100px;
+  }
+  .review-content .slider-dots {
+    display: none;
+  }
+  .achievements .achievements-content {
+    padding: 5% 0;
+  }
+  .contact {
+    padding: 5%;
+  }
+  .contact .contact-title {
+    padding: 0;
+  }
+  .contact .contact-btn {
+    margin-bottom: 0;
+  }
+  .review-name {
+    padding-top: 10px;
+  }
+  button {
+    width: 30vw;
+  }
+  .work {
+    height: 100vh;
+  }
+  .work .work-box {
+    height: 45vh;
+    filter: brightness(100%);
+  }
+  .achievements .achievements-content {
+    row-gap: 25px;
+  }
+  .company{
+    padding: 5%;
+    height: auto;
+  }
+  .company .company-item{
+    width: 120px;
+  }
+
+}
+
+
+@media(min-width:375px) {
+
+}
+
+
+@media(min-width:440px) {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------- */
+
 @media (min-width: 575.98px) {
   p {
     font-size: 0.8em;
@@ -16,7 +143,7 @@
     margin-top: -15vh;
   }
   .main .main-title {
-    font-size: 0.7em;
+    font-size: 0.5em;
   }
   .achievements .achievements-content {
     justify-content: space-around;
@@ -49,6 +176,7 @@
   }
   .review-content .slider-dots {
     margin-top: 30px;
+    display: block;
   }
   .achievements .achievements-content {
     padding: 5% 0;
@@ -78,9 +206,19 @@
   .achievements .achievements-content {
     row-gap: 25px;
   }
+  .company{
+    padding: 5%;
+    height: auto;
+  }
+  .company .company-item{
+    width: 100px;
+  }
 }
 
 @media (min-width: 767.98px) {
+  .main .main-title {
+    font-size: 0.7em;
+  }
   header {
     margin-top: -15vh;
   }
@@ -89,6 +227,9 @@
   }
   nav.menu {
     height: 15vh;
+  }
+   .company .company-item{
+    width: 135px;
   }
 }
 
