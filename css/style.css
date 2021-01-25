@@ -151,14 +151,14 @@ header .main {
 
 .about {
   width: 100%;
-  max-height: 60vh;
+  height: 60vh;
 }
 
 .about-content {
   margin: 0 auto;
   padding: 100px 0;
   text-align: center;
-  width: 620px;
+  max-width: 620px;
 }
 .about-content .about-text {
   font-family: "Nunito Sans";
@@ -172,7 +172,7 @@ header .main {
 
 .skills {
   width: 100%;
-  height: 60vh;
+  height: auto;
   display: flex;
   justify-content: space-between;
   background-color: #f6f6f6;
@@ -181,11 +181,13 @@ header .main {
   margin: 0 auto;
   width: 70%;
 }
-.skills .skills-progress {
-  padding-top: 8%;
-  width: 50%;
-}
+ .skills .skills-progress {
+    padding: 5%;
+    width: 100%;
+  }
+
 .skills .skills-img {
+  display: none;
   width: 50%;
   float: right;
   background-image: url("../img/bg/skillsBG.jpg");
@@ -311,7 +313,7 @@ header .main {
 .process .process-text {
   padding-top: 100px;
   letter-spacing: 1px;
-  width: 600px;
+  max-width: 600px;
   margin: 0 auto;
 }
 
@@ -414,11 +416,11 @@ header .main {
 
 .contact .contact-head {
   margin: 0 auto;
-  width: 670px;
+  max-width: 670px;
 }
 
 .contact-form {
-  width: 800px;
+  max-width: 800px;
   margin: 0 auto;
 }
 input {
@@ -466,6 +468,7 @@ textarea {
 
 /* footer */
 footer {
+  display: none;;
   width: 100%;
   height: 40vh;
   background-color: #000;
@@ -664,7 +667,6 @@ footer .footer-content {
   background-color: transparent !important;
   z-index: 999;
   transition: 0.5s;
-  
 }
 
 .hamburger_active::before {

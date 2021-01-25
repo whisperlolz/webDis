@@ -1,10 +1,63 @@
 @media (min-width: 575.98px) {
+   .about {
+    height: auto;
+  }
+   nav .menu {
+    background-color: #000;
+  }
+  header .main {
+    padding-top: 45vh;
+  }
+   .more-work {
+    color: #fff;
+    background-color: #10c9c3;
+  }
+.more-work:hover {
+    background-image: none;
+  }
+
+.work .work-box {
+filter: brightness(100%);
+}
+
+button{
+    width: 30vw;
+  }
+  .work {
+    height: 50vh;
+  }
+  .work .work-box {
+    height: 20vh;
+  }
 }
 
 @media (min-width: 767.98px) {
+ 
+
 }
 
 @media (min-width: 991.98px) {
+ 
+  .work {
+    height: 70vh;
+  }
+ 
+  
+  .achievements .achievements-content {
+    gap: 20px;
+    justify-content: center;
+  }
+  .achievements-item {
+    width: 35vw;
+    justify-content: center;
+  }
+  .work .work-box {
+    height: 30vh;
+    filter: brightness(100%);
+  }
+  .main .main-title {
+    font-size: 1em;
+  }
   p {
     line-height: 35px;
   }
@@ -15,13 +68,17 @@
     width: 100%;
     margin-top: 20px;
   }
+ 
+
+
+
 }
 
 @media (min-width: 1199.98px) {
-  .menu .menu-list{
+  .menu .menu-list {
     display: block;
   }
-  .menu .hamburger{
+  .menu .hamburger {
     display: none;
   }
   button {
@@ -41,20 +98,10 @@
   .skills .skills-etap-progress {
     font-size: 1em;
   }
-  .skills {
-    height: 70vh;
-  }
   .skills .skills-etap-progress {
     font-size: 1em;
   }
-  .achievements .achievements-content {
-    gap: 20px;
-    justify-content: center;
-  }
-  .achievements-item {
-    width: 30vw;
-    justify-content: center;
-  }
+
   .process {
     min-height: 75vh;
   }
@@ -69,6 +116,19 @@
   }
   .review-name {
     font-size: 1em;
+  }
+  .skills .skills-img {
+    display: block;
+  }
+  .skills .skills-progress {
+  padding-top: 8%;
+  width: 50%;
+}
+.skills{
+  height: 50vh;
+}
+  footer {
+    display: block;
   }
 }
 
@@ -110,6 +170,9 @@
   }
   .overlay .popup-form__input {
     width: 65%;
+  }
+  .about {
+    height: 70vh;
   }
 }
 
