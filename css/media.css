@@ -80,10 +80,10 @@ p {
     width: 30vw;
   }
   .work {
-    height: 100vh;
+    height: 50vh;
   }
   .work .work-box {
-    height: 45vh;
+    height: 20vh;
     filter: brightness(100%);
   }
   .achievements .achievements-content {
