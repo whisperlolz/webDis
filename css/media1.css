@@ -1,0 +1,173 @@
+@media (min-width: 575.98px) {
+}
+
+@media (min-width: 767.98px) {
+}
+
+@media (min-width: 991.98px) {
+  p {
+    line-height: 35px;
+  }
+  .overlay .popup-form__input {
+    width: 100%;
+  }
+  .popup-form__btn {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 1199.98px) {
+  .menu .menu-list{
+    display: block;
+  }
+  .menu .hamburger{
+    display: none;
+  }
+  button {
+    font-size: 0.9em;
+  }
+  nav .menu {
+    font-size: 0.9em;
+  }
+  .main .main-title {
+    font-size: 1.2em;
+  }
+  p {
+    font-size: 1.1em;
+    line-height: 40px;
+    padding-top: 40px;
+  }
+  .skills .skills-etap-progress {
+    font-size: 1em;
+  }
+  .skills {
+    height: 70vh;
+  }
+  .skills .skills-etap-progress {
+    font-size: 1em;
+  }
+  .achievements .achievements-content {
+    gap: 20px;
+    justify-content: center;
+  }
+  .achievements-item {
+    width: 30vw;
+    justify-content: center;
+  }
+  .process {
+    min-height: 75vh;
+  }
+  .achievements-item-text .achievements-name {
+    font-size: 1em;
+  }
+  .more-work {
+    font-size: 1em;
+  }
+  .review-item .review-text {
+    font-size: 1.7em;
+  }
+  .review-name {
+    font-size: 1em;
+  }
+}
+
+@media (min-width: 1439.98px) {
+  header {
+    height: 100vh;
+  }
+  button {
+    font-size: 1em;
+  }
+  .popup-form__btn {
+    width: 12vw;
+  }
+  nav .menu {
+    font-size: 1em;
+  }
+  .main .main-title {
+    font-size: 1.4em;
+  }
+  p {
+    font-size: 1.3em;
+    padding-top: 40px;
+  }
+  .skills .skills-etap-progress {
+    font-size: 1em;
+  }
+
+  .skills .skills-etap-progress {
+    font-size: 1em;
+  }
+  .achievements .achievements-content {
+    justify-content: space-between;
+  }
+  .achievements-item {
+    width: 15vw;
+  }
+  .achievements-item-text .achievements-text-num {
+    font-size: 1.3em;
+  }
+  .overlay .popup-form__input {
+    width: 65%;
+  }
+}
+
+@media (min-width: 1599.98px) {
+  .main .main-title {
+    font-size: 1.6em;
+  }
+  .skills {
+    height: 60vh;
+  }
+}
+
+@media (min-width: 1799.98px) {
+  button {
+    font-size: 1.2em;
+    margin-top: 40px;
+    height: 55px;
+  }
+  nav .menu {
+    font-size: 1.2em;
+  }
+
+  .main .main-title {
+    font-size: 1.8em;
+  }
+  p {
+    font-size: 1.5em;
+    padding-top: 60px;
+    padding-top: 50px;
+  }
+  .skills .skills-etap-progress {
+    font-size: 1.2em;
+  }
+
+  .achievements-item-text .achievements-text-num {
+    font-size: 1.5em;
+  }
+  .achievements-item-text .achievements-name {
+    font-size: 1.2em;
+  }
+  .more-work {
+    font-size: 1.2em;
+  }
+  .review-item .review-text {
+    font-size: 2em;
+  }
+  .review-name {
+    font-size: 1.2em;
+  }
+}
+@media (min-width: 2047.98px) {
+  .menu-list {
+    width: 50%;
+  }
+  header .main {
+    width: 50%;
+  }
+  textarea {
+    font-size: 1.2em;
+  }
+}
