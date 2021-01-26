@@ -78,7 +78,7 @@ nav.menu {
   height: 10vh;
   font-size: 0.75em;
   font-weight: 600;
-  padding-top: 30px;
+  padding-top: 1%;
   position: sticky;
   position: -webkit-sticky;
   top: 0;
@@ -158,7 +158,7 @@ header .main {
 .about-content {
   margin: 0 auto;
   text-align: center;
-  width: 620px;
+  max-width: 620px;
 }
 .about-content .about-text {
   font-family: "Nunito Sans";

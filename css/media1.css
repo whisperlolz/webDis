@@ -1,173 +1,100 @@
-@media (min-width: 575.98px) {
+@media (max-width: 310px) {
+  
+}
+@media (max-width: 375px) {
 }
 
-@media (min-width: 767.98px) {
+@media (max-width: 440px) {
 }
 
-@media (min-width: 991.98px) {
-  p {
-    line-height: 35px;
-  }
-  .overlay .popup-form__input {
-    width: 100%;
-  }
-  .popup-form__btn {
-    width: 100%;
-    margin-top: 20px;
-  }
+@media (max-width: 575.98px) {
 }
 
-@media (min-width: 1199.98px) {
-  .menu .menu-list{
-    display: block;
-  }
-  .menu .hamburger{
-    display: none;
-  }
-  button {
-    font-size: 0.9em;
-  }
-  nav .menu {
-    font-size: 0.9em;
-  }
-  .main .main-title {
-    font-size: 1.2em;
-  }
-  p {
-    font-size: 1.1em;
-    line-height: 40px;
-    padding-top: 40px;
-  }
-  .skills .skills-etap-progress {
-    font-size: 1em;
-  }
-  .skills {
-    height: 70vh;
-  }
-  .skills .skills-etap-progress {
-    font-size: 1em;
-  }
-  .achievements .achievements-content {
-    gap: 20px;
-    justify-content: center;
-  }
-  .achievements-item {
-    width: 30vw;
-    justify-content: center;
-  }
-  .process {
-    min-height: 75vh;
-  }
-  .achievements-item-text .achievements-name {
-    font-size: 1em;
-  }
-  .more-work {
-    font-size: 1em;
-  }
-  .review-item .review-text {
-    font-size: 1.7em;
-  }
-  .review-name {
-    font-size: 1em;
-  }
-}
-
-@media (min-width: 1439.98px) {
-  header {
-    height: 100vh;
-  }
-  button {
-    font-size: 1em;
-  }
-  .popup-form__btn {
-    width: 12vw;
-  }
-  nav .menu {
-    font-size: 1em;
-  }
-  .main .main-title {
+@media (max-width: 767.98px) {
+  h2{
     font-size: 1.4em;
   }
-  p {
-    font-size: 1.3em;
-    padding-top: 40px;
+  .achievements .achievements-content{
+    justify-content: center;
+    gap: 5vw;
   }
-  .skills .skills-etap-progress {
+  .achievements-item img{
+    width: 60px;
+  }
+  .review-item .review-text{
     font-size: 1em;
   }
+  .process .process-video iframe{
+    width: 100%;
+  }
+}
 
-  .skills .skills-etap-progress {
+@media (max-width: 991.98px) {
+  button{
+    width: 30vw;
+  }
+  header{
+    background-image: none;
+  }
+  
+  header .main{
+    width: 100%;
+    text-align: center;
+    padding-top: 20%;
+  }
+  .main .main-title{
     font-size: 1em;
   }
-  .achievements .achievements-content {
-    justify-content: space-between;
+  .skills .skills-progress{
+    width: 100%;
   }
-  .achievements-item {
-    width: 15vw;
+ .skills .skills-img{
+   display: none;
+ }
+   .work{
+    height: 50vh !important;
   }
-  .achievements-item-text .achievements-text-num {
-    font-size: 1.3em;
+  .work-box{
+    height: 20vh !important;
   }
-  .overlay .popup-form__input {
-    width: 65%;
+  .company .company-item:hover {
+  transform: scale(1);
+  transition: 0.5s;
+}
+  .review-content .slider-dots{
+    display: none;
+  }
+  
+  footer{
+    display: none;
+  }
+  
+}
+
+@media (max-width: 1199.98px) {
+   .main .main-title{
+    font-size: 1em;
+  }
+  .achievements-item{
+    display: block;
+  }
+  .achievements .achievements-content{
+    align-items: center;
+    text-align: center;
+  }
+  .achievements-item img{
+    padding: 0;
   }
 }
 
-@media (min-width: 1599.98px) {
-  .main .main-title {
-    font-size: 1.6em;
-  }
-  .skills {
-    height: 60vh;
-  }
+@media (max-width: 1439.98px) {
 }
 
-@media (min-width: 1799.98px) {
-  button {
-    font-size: 1.2em;
-    margin-top: 40px;
-    height: 55px;
-  }
-  nav .menu {
-    font-size: 1.2em;
-  }
-
-  .main .main-title {
-    font-size: 1.8em;
-  }
-  p {
-    font-size: 1.5em;
-    padding-top: 60px;
-    padding-top: 50px;
-  }
-  .skills .skills-etap-progress {
-    font-size: 1.2em;
-  }
-
-  .achievements-item-text .achievements-text-num {
-    font-size: 1.5em;
-  }
-  .achievements-item-text .achievements-name {
-    font-size: 1.2em;
-  }
-  .more-work {
-    font-size: 1.2em;
-  }
-  .review-item .review-text {
-    font-size: 2em;
-  }
-  .review-name {
-    font-size: 1.2em;
-  }
+@media (max-width: 1599.98px) {
 }
-@media (min-width: 2047.98px) {
-  .menu-list {
-    width: 50%;
-  }
-  header .main {
-    width: 50%;
-  }
-  textarea {
-    font-size: 1.2em;
-  }
+
+@media (max-width: 1799.98px) {
+}
+@media (max-width: 2047.98px) {
+  
 }
