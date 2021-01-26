@@ -1,5 +1,4 @@
 @media (max-width: 310px) {
-  
 }
 @media (max-width: 375px) {
 }
@@ -11,78 +10,80 @@
 }
 
 @media (max-width: 767.98px) {
-  h2{
+  h2 {
     font-size: 1.4em;
   }
-  .achievements .achievements-content{
+  .achievements .achievements-content {
     justify-content: center;
     gap: 5vw;
   }
-  .achievements-item img{
+  .achievements-item img {
     width: 60px;
   }
-  .review-item .review-text{
+  .review-item .review-text {
     font-size: 1em;
   }
-  .process .process-video iframe{
+  .process .process-video iframe {
     width: 100%;
   }
 }
 
 @media (max-width: 991.98px) {
-  button{
+  button {
     width: 30vw;
   }
-  header{
+  header {
     background-image: none;
   }
-  
-  header .main{
+
+  header .main {
     width: 100%;
     text-align: center;
-    padding-top: 20%;
+    padding-top: 15%;
   }
-  .main .main-title{
+  .main .main-title {
     font-size: 1em;
   }
-  .skills .skills-progress{
+  .skills {
+    height: 90vh;
+  }
+  .skills .skills-progress {
     width: 100%;
   }
- .skills .skills-img{
-   display: none;
- }
-   .work{
+  .skills .skills-img {
+    display: none;
+  }
+  .work {
     height: 50vh !important;
   }
-  .work-box{
+  .work-box {
     height: 20vh !important;
   }
   .company .company-item:hover {
-  transform: scale(1);
-  transition: 0.5s;
-}
-  .review-content .slider-dots{
+    transform: scale(1);
+    transition: 0.5s;
+  }
+  .review-content .slider-dots {
     display: none;
   }
-  
-  footer{
+
+  footer {
     display: none;
   }
-  
 }
 
 @media (max-width: 1199.98px) {
-   .main .main-title{
+  .main .main-title {
     font-size: 1em;
   }
-  .achievements-item{
+  .achievements-item {
     display: block;
   }
-  .achievements .achievements-content{
+  .achievements .achievements-content {
     align-items: center;
     text-align: center;
   }
-  .achievements-item img{
+  .achievements-item img {
     padding: 0;
   }
 }
@@ -96,5 +97,4 @@
 @media (max-width: 1799.98px) {
 }
 @media (max-width: 2047.98px) {
-  
 }
