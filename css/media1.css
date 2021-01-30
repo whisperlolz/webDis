@@ -34,7 +34,8 @@
   }
 
   header {
-    background-image: none;
+    /* background-image: none; */
+    background-image: url(../img/bg/headerSmall.jpg);
   }
   .menu .hamburger {
   display: block;
