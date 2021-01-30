@@ -32,7 +32,9 @@
   button {
     width: 30vw;
   }
-
+.main-btn{
+  display: none;
+}
   header {
     /* background-image: none; */
     background-image: url(../img/bg/headerSmall.jpg);
@@ -69,6 +71,7 @@
   }
   .work-box {
     height: 20vh !important;
+    filter: brightness(100%) !important;
   }
   .company .company-item:hover {
     transform: scale(1);
