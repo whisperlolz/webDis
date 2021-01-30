@@ -32,17 +32,27 @@
   button {
     width: 30vw;
   }
+
   header {
     background-image: none;
   }
-
+  .menu .hamburger {
+  display: block;
+  }
   header .main {
     width: 100%;
     text-align: center;
     padding-top: 15%;
   }
+
   .main .main-title {
     font-size: 1em;
+  }
+  .menu .menu-list {
+    display: none;
+  }
+  .menu .hamburger {
+    display: flex;
   }
   .skills {
     height: 90vh;

@@ -67,15 +67,17 @@ button:active {
   padding-top: 3px;
 }
 nav.hamburger {
+  display: block;
   position: absolute;
+  top: 0;
+  right: 0;
   width: 100%;
   height: 200px;
-  background-color: red;
   z-index: 999;
 }
 nav.menu {
   width: 100%;
-  height: 10vh;
+  height: 8vh;
   font-size: 0.75em;
   font-weight: 600;
   padding-top: 1%;
@@ -102,7 +104,7 @@ nav.menu {
   width: 100%;
   height: auto;
 }
-
+/* MENU  */
 .menu .menu-list ul {
   display: flex;
   justify-content: space-between;
@@ -120,7 +122,7 @@ nav.menu {
 }
 
 header {
-  margin-top: -10vh;
+  margin-top: -8vh;
   width: 100%;
   height: 100vh;
   background-image: url("../img/bg/headerBg.jpg");
@@ -324,8 +326,7 @@ header .main {
 .process .process-video video {
   width: 65vw;
 }
-.process .process-video iframe{
-
+.process .process-video iframe {
 }
 
 /* review */
@@ -465,7 +466,6 @@ textarea {
   outline: none;
   border: none;
 }
-
 
 /* footer */
 footer {
@@ -618,13 +618,10 @@ footer .footer-content {
 }
 
 /* HAMBURGER */
-.menu .menu-list {
-  display: none;
-}
 
 .menu .hamburger {
+  display: none;
   height: 30px;
-  display: flex;
   justify-content: center;
   align-self: center;
   margin-right: 10px;
@@ -663,27 +660,71 @@ footer .footer-content {
   transition: transform 0.2s ease-in, top 0.2s linear 0.2s;
 }
 
-.hamburger_active {
+.hamburger-active {
   background-color: transparent !important;
   z-index: 999;
   transition: 0.5s;
-  
 }
 
-.hamburger_active::before {
+.hamburger-active::before {
   z-index: 999;
   top: 3px !important;
   transform: rotate(45deg);
   transition: top 0.2s linear, transform 0.2s ease-in 0.2s !important;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0) !important;
 }
 
-.hamburger_active::after {
+.hamburger-active::after {
   z-index: 999;
   top: 3px !important;
   transform: rotate(-45deg);
   transition: top 0.2s linear, transform 0.2s ease-in 0.2s !important;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0) !important;
+}
+
+/* ----- */
+
+/* hamburger menu */
+
+.popup-list {
+  background-color: #ffffff;
+  top: 0;
+  right: -100%;
+  z-index: 5;
+  position: fixed;
+  min-width: 60%;
+  min-height: 100%;
+  color: rgb(0, 0, 0);
+  box-shadow: 2px 0 2px 3px #000;
+  transition: 0.5s;
+}
+.popup_menu_active {
+  right: 0;
+  transition: 0.5s;
+}
+.popup-list ul {
+  text-align: center;
+  padding: 10vh;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: repeat(7, 1fr);
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  font-weight: 600;
+}
+.popup-list ul li:active {
+  color: #10c9c3;
+}
+
+.popup-close {
+  position: absolute;
+  right: 20px;
+  top: 35px;
+  cursor: pointer;
+  font-size: 3em;
+  color: rgb(0, 0, 0);
+  font-weight: 900;
 }
 
 /* ----- */

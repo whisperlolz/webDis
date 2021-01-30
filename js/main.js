@@ -8,7 +8,6 @@ window.addEventListener("DOMContentLoaded", function () {
     if (nav.offsetTop > 100) {
       nav.style.backgroundColor = "#000";
       nav.style.color = "#fff";
-      
     } else {
       nav.style.backgroundColor = "transparent";
       nav.style.color = "#000";
@@ -142,9 +141,17 @@ window.addEventListener("DOMContentLoaded", function () {
   // HAMBURGER
 
   let hamburger = document.querySelector(".hamburger"),
-    spanHamb = hamburger.querySelector("span");
+    spanHamb = hamburger.querySelector("span"),
+    popup = document.querySelector(".popup-list ");
 
   hamburger.onclick = function () {
-    spanHamb.classList.toggle("hamburger_active");
+    spanHamb.classList.toggle("hamburger-active");
+    if (spanHamb.classList == "hamburger-active") {
+      document.body.style.overflow = "hidden";
+      popup.classList.add("popup_menu_active");
+    } else {
+      popup.classList.remove("popup_menu_active");
+      document.body.style.overflow = "";
+    }
   };
 });
